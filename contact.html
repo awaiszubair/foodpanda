@@ -1,0 +1,129 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            width: 100%;
+            /* border: 1px solid black; */
+            min-height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            /* max-width: 20rem; */
+            width: 75%;
+            /* border: 1px solid black; */
+            /* background-color: red; */
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .menu ul{list-style-type: none;}
+        .menu ul li{
+            display: inline-block;
+            margin-right: 1rem;
+        }
+        h1{
+            /* color: white; */
+        }
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    line-height: 1.2rem;
+}
+.box{
+    width: 100%;
+}
+button{
+    background-color: white;
+    font-weight: bold;
+}
+.foo ul{list-style-type: none;} .foo ul li{color: white;padding-top: 0.3rem;}
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <!-- <h1>LOGO</h1> -->
+                <div style="height: 27px;width: 140px;">
+                <img src="pn-logo.PNG" alt="" style="width: 100%;height: 100%;">
+            </div>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">News</a></li>
+                    <li><button style="padding: 0.5rem;background-color: #ff2b85;color: white;border-radius: 50px;border: none;margin-left: 1rem;cursor: pointer;">Choose Location</button></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header style="height: 60%;position: relative;">
+        <img src="fp-contact-1.jpeg" alt="" style="height: 100%;width: 100%;">
+        <h1 style="position: absolute;bottom: 50px;left: 100px;color: white;">Contact Us</h1>
+    </header>
+
+<div class="section-1" style="width: 100%;display: flex;justify-content: center;align-items: center;">
+<div style="width: 80%;padding: 1rem;">
+<form action="" style="margin-top: 3rem;">
+    <input type="text" placeholder="Name" style="border-radius: 50px;height: 25px;width: 15rem;padding: 1rem;">
+    <input type="email" placeholder="email" style="border-radius: 50px;height: 25px;width: 15rem;padding: 1rem;margin-left: 0.5rem;"> <br>
+    <textarea name="" id="" cols="50" rows="15" style="border-radius: 40px;width: 40rem;padding: 1rem;margin-top: 1rem;"></textarea><br>
+    <button style="padding: 0.5rem;color: #ff2b85;border-radius: 50px;border: 2px solid #ff2b85;margin-left: 1rem;cursor: pointer;margin-top: 1rem;">Send Message</button>
+
+</form>
+</div>
+</div>
+
+        <footer style="width: 100%;min-height: 300px;background-color: black;display: flex;flex-direction: column;justify-content: center;align-items: center;margin-top: 3rem;">
+            <div style="width: 80%;">
+                <div style="height: 27px;width: 140px;margin-bottom: 2rem;">
+                    <img src="two.PNG" alt="" style="width: 100%;height: 100%;">
+                </div>
+                <div class="foo" style="width: 100%;display: flex;justify-content: space-between;">
+                <div>
+                    <ul>
+                        <li style="margin-bottom: 1rem;">Navigate</li>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>Newsroom</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li style="margin-bottom: 1rem;">Collaborate</li>
+                        <li>Explore Careers</li>
+                        <li>Become a rider</li>
+                        <li>Try Panda ads</li>
+                        <li>Feed your team</li>
+                    </ul>
+                </div>
+                <div>
+                    <div style="height:69px;width: 139px;">
+                    <img src="links.PNG" alt="" style="width: 100%;height: 100%;">
+                    </div>
+                </div>
+                </div>
+                <div style="width: 100%;margin-top: 3rem;">
+                <p style="color: white;">Copyright © 2023 foodpanda</p>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>

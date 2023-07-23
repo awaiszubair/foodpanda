@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            border: 1px solid black;
+            background-color: rgb(184, 184, 243);
+            width: 100%;
+            box-sizing: border-box;
+            /* min-height: 80vh; */
+            height: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        .box1{
+            width: 100%;
+        }
+        .boxes{
+            border: 1px solid black;
+            background-color: tomato;
+        }
+        .box{
+            /* margin: 0.5rem; */
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .box{
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            text-align: center;
+        }
+        .boxes{
+            justify-content: center;
+            /* align-items: center; */
+            /* flex: 1; */
+        }
+        .boxess{
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="boxes box1" style="height: 50px;"><h1>Header</h1></div>
+        </div>
+        <div class="box" style="display: flex;flex-direction: row;justify-content: space-between;">
+            <div class="boxes box2" style="width: 49%;height: 200px;"><h1>Article</h1></div>
+            <div class="boxes box3" style="width: 49%;display: flex;flex-direction: column;background-color:rgb(184, 184, 243); ;">
+                <div class="boxes sub-box1" style="margin-bottom: 0.5rem;height: 100px;"><h1>BOx</h1></div>
+                <div class="boxes sub-box1" style="height: 100px;"><h1>Box</h1></div>
+            </div>
+        </div>
+        <div class="boxes box" style="width: 100%;height: 100px;">
+        <h1>Main</h1>
+        </div>
+        <div class="boxes box" style="width: 100%;"><h1>Footer</h1></div>
+    </div>
+</body>
+</html>
